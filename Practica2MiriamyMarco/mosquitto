@@ -1,0 +1,13 @@
+allow_anonymous 1
+listener 1885 192.168.0.13
+protocol mqtt
+
+pid_file /run/mosquitto/mosquitto.pid
+
+persistence true
+persistence_location /var/lib/mosquitto/
+
+log_dest file /var/log/mosquitto/mosquitto.log
+
+include_dir /etc/mosquitto/conf.d
+

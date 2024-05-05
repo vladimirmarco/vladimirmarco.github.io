@@ -1,0 +1,2 @@
+To use this program, execute first server.py, without arguments.
+Next, execute client.py. It will ask for ip, port and data type.
