@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nullWhenNullTransition</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_ZeroWhenNullFsm</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_ZeroWhenNullTransitions</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_returnNumTransitionsValids</Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_returnZeroWith128tt</Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_fsm_legacy.c::test_fsm_nullWhenFirstOrigStateIsMinusOne </Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_fsm_legacy.c::test_fsm_nullWhenFirstDstStateIsMinusOne </Name>
+		</Test>
+		<Test id="8">
+			<Name>test/test_fsm_legacy.c::test_fsm_nullWhenFirstCheckFunctionIsNull </Name>
+		</Test>
+		<Test id="9">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nonNullWhenOneValidTransitionCondition(NULL)</Name>
+		</Test>
+		<Test id="10">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nonNullWhenOneValidTransitionCondition(do_nothing)</Name>
+		</Test>
+		<Test id="11">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_fsmGetStateReturnsOrigStateOfFirstTransitionAfterInit</Name>
+		</Test>
+		<Test id="12">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_isTrueReturnsFalseMeansDoNothingIsNotCalledAndStateKeepsTheSame</Name>
+		</Test>
+		<Test id="13">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_checkFunctionCalledWithFsmPointerFromFsmFire</Name>
+		</Test>
+		<Test id="14">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_checkFunctionIsCalledAndResultIsImportantForTransition(false, 0)</Name>
+		</Test>
+		<Test id="15">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_checkFunctionIsCalledAndResultIsImportantForTransition(true, 1)</Name>
+		</Test>
+		<Test id="16">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_isTrueReturnsNoneTrasition</Name>
+		</Test>
+		<Test id="17">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_isTrueReturnsZeroOrOne(false,0)</Name>
+		</Test>
+		<Test id="18">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_isTrueReturnsZeroOrOne(true,1)</Name>
+		</Test>
+		<Test id="19">
+			<Name>test/test_fsm_legacy.c::test_fsm_fireNULLIsTrue </Name>
+		</Test>
+		<Test id="20">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nullWhenFsmMallocReturnsNull</Name>
+		</Test>
+		<Test id="21">
+			<Name>test/test_fsm_legacy.c::test_fsm_destroy_callsFsmFree</Name>
+		</Test>
+		<Test id="22">
+			<Name>test/test_fsm_legacy.c::test_fsm_destroy_doesntCallsFsmFreeIfNull</Name>
+		</Test>
+		<Test id="23">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_callsFirstIsTrueFromState0AndThenIsTrue2FromState1</Name>
+		</Test>
+		<Test id="24">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_calledTwiceWithSameValidDataCreatesDifferentInstancePointer</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>24</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>
