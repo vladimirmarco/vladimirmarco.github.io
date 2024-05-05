@@ -1,0 +1,1 @@
+[![Ceedling Testing](https://github.com/vladimirmarco/vladimirmarco.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/vladimirmarco/vladimirmarco.github.io/actions/workflows/main.yml)
