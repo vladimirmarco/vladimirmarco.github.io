@@ -4,6 +4,7 @@ on:
     workflows: [Ceedling Testing]
     types: [completed]
 jobs:
+  if: ${{ github.event.workflow_run.conclusion == 'success’ }}
   test:
     runs-on: ubuntu-20.04
     steps:
